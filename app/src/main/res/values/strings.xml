@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">SchoolExplorer</string>
+    <string name="title_login">Identification</string>
+    <string name="labelLogin">Identifiant</string>
+    <string name="labelPassword">Mot de passe</string>
+    <string name="reset">Vider</string>
+    <string name="send">envoyer</string>
+    <string name="remember_login">Se souvenir de moi</string>
+    <string name="login_error">Mot de passse ou nom d\'utilisateur incorrect</string>
+    <string name="field_required">Champ requis</string>
+    <string name="field_invalid">Format invalide</string>
+    <string name="play_with_smartphone">Interaction avec mon téléphone</string>
+    <string name="label_schoool_name">Nom</string>
+    <string name="label_schoool_address">Adresse</string>
+    <string name="students_message">%1$d élève(s)</string>
+    <string name="zip_code_city">%1$s %2$s</string>
+    <string name="distance_message">%1$.2f km</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="back">Back</string>
+    <string name="list">List</string>
+    <string name="title">Title</string>
+    <string name="textviewExemple">TextView Exemple</string>
+    <string name="name">Nom</string>
+    <string name="address">Adresse</string>
+    <string name="zip_code">Code Postal</string>
+    <string name="city">Commune</string>
+    <string name="opening_hours">Horaire d\'ouverture</string>
+    <string name="phone">Numéro de téléphone</string>
+    <string name="email">E-mail</string>
+    <string name="latitude">Latitude</string>
+    <string name="longitude">Longitude</string>
+    <string name="nb_students">Nombre d\'élèves</string>
+    <string name="type">Type</string>
+    <string name="cancel">Annuler</string>
+    <string-array name="type_schools">
+        <item>Privée</item>
+        <item>Publique</item>
+    </string-array>
+</resources>

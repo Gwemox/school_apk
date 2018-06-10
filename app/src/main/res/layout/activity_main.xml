@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.ynov.tbu.schoolexplorer.activity.MainActivity">
+
+    <TableLayout
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:measureWithLargestChild="true" >
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="110dp"
+            android:layout_weight="1" >
+
+            <ImageButton
+                android:id="@+id/btnMaps"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@color/map_icon_background"
+                android:scaleType="fitCenter"
+                app:srcCompat="@mipmap/map_icon"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="25dp" />
+
+            <ImageButton
+                android:id="@+id/btnListSchools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@color/list_icon_background"
+                android:scaleType="fitCenter"
+                android:text="Button"
+                app:srcCompat="@mipmap/list_icon" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1" >
+
+            <ImageButton
+                android:id="@+id/btnNewSchool"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@color/add_icon_background"
+                android:scaleType="fitCenter"
+                app:srcCompat="@mipmap/add_icon"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="68dp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1" >
+
+            <ImageButton
+                android:id="@+id/btnSettings"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@color/config_menu_icon_background"
+                android:scaleType="fitCenter"
+                app:srcCompat="@mipmap/config_menu_icon"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="68dp" />
+        </TableRow>
+
+    </TableLayout>
+
+</android.support.constraint.ConstraintLayout>
